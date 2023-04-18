@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="3d27dc2b-393a-4dd0-8f04-7694a8440092" name="@Centenennial COMP228 Mapping">
+      <data-sources db="88a741bd-79f7-459c-8005-9a800f18a3b8" />
+      <scope>
+        <node negative="1">
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+          <node kind="schema" qname="COMP228_W23_SY_113" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>

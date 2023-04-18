@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="211.0"
+            prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ca.centennialcollege.lab05ex01.DataDisplayController">
+   <children>
+      <TableView fx:id="tbvPlayerGaming" prefHeight="200.0" prefWidth="900.0">
+        <columns>
+            <TableColumn prefWidth="40.0" text="ID" fx:id="tbColID" />
+            <TableColumn prefWidth="140.0" text="NAME" fx:id="tbColName" />
+            <TableColumn prefWidth="190.0" text="ADDRESS" fx:id="tbColAddress" />
+            <TableColumn prefWidth="75.0" text="POST CODE" fx:id="tbColPostalCode" />
+            <TableColumn prefWidth="75.0" text="PROVINCE" fx:id="tbColProvince" />
+            <TableColumn prefWidth="75.0" text="PHONE" fx:id="tbColPhone" />
+            <TableColumn prefWidth="135.0" text="GAME TITLE" fx:id="tbColGameTitle" />
+            <TableColumn prefWidth="75.0" text="SCORE" fx:id="tbColScore" />
+            <TableColumn prefWidth="87.0" text="DATE PLAYED" fx:id="tbColDatePlayed" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
